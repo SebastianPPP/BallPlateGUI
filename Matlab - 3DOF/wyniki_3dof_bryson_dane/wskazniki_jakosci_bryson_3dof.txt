@@ -1,0 +1,87 @@
+===================================================================
+WYNIKI SYMULACJI - TESTY REGUŁY BRYSONA (3DOF) I ZAPASY STABILNOŚCI
+===================================================================
+Błąd liczony jako odległość od (0,0): r = sqrt(x^2 + y^2)
+Energia całkowita układu: E = u_x^2 + u_y^2
+===================================================================
+
+### Sytuacja: Prosta | Regulator: B1_bazowa ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     38.54 dB
+  Czas regulacji (Ts):      1.480 s
+  Przeregulowanie (Mp):      0.00 %
+  Wskaźnik IAE:            0.0599
+  Całkowita energia (E):   0.3392
+
+### Sytuacja: Prosta | Regulator: B2_szybka ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     47.14 dB
+  Czas regulacji (Ts):      1.720 s
+  Przeregulowanie (Mp):      0.00 %
+  Wskaźnik IAE:            0.0460
+  Całkowita energia (E):   2.4187
+
+### Sytuacja: Prosta | Regulator: B3_ostrozna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     34.68 dB
+  Czas regulacji (Ts):      3.050 s
+  Przeregulowanie (Mp):      0.00 %
+  Wskaźnik IAE:            0.0870
+  Całkowita energia (E):   0.0667
+
+### Sytuacja: Prosta | Regulator: B4_agresywna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     58.10 dB
+  Czas regulacji (Ts):      1.150 s
+  Przeregulowanie (Mp):      0.00 %
+  Wskaźnik IAE:            0.0318
+  Całkowita energia (E):  33.1697
+
+### Sytuacja: Prosta | Regulator: B5_maly_kat ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     40.26 dB
+  Czas regulacji (Ts):      1.640 s
+  Przeregulowanie (Mp):      0.00 %
+  Wskaźnik IAE:            0.0639
+  Całkowita energia (E):   0.3087
+
+### Sytuacja: Trudna | Regulator: B1_bazowa ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     38.54 dB
+  Czas regulacji (Ts):      1.540 s
+  Przeregulowanie (Mp):      0.10 %
+  Wskaźnik IAE:            0.1523
+  Całkowita energia (E):   3.7234
+
+### Sytuacja: Trudna | Regulator: B2_szybka ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     47.14 dB
+  Czas regulacji (Ts):      1.740 s
+  Przeregulowanie (Mp):      0.03 %
+  Wskaźnik IAE:            0.1141
+  Całkowita energia (E):  18.6682
+
+### Sytuacja: Trudna | Regulator: B3_ostrozna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     34.68 dB
+  Czas regulacji (Ts):      3.140 s
+  Przeregulowanie (Mp):      0.36 %
+  Wskaźnik IAE:            0.2266
+  Całkowita energia (E):   1.3753
+
+### Sytuacja: Trudna | Regulator: B4_agresywna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     58.10 dB
+  Czas regulacji (Ts):      1.150 s
+  Przeregulowanie (Mp):      0.01 %
+  Wskaźnik IAE:            0.0772
+  Całkowita energia (E):  210.4635
+
+### Sytuacja: Trudna | Regulator: B5_maly_kat ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     40.26 dB
+  Czas regulacji (Ts):      1.730 s
+  Przeregulowanie (Mp):      0.11 %
+  Wskaźnik IAE:            0.1627
+  Całkowita energia (E):   3.7073
+

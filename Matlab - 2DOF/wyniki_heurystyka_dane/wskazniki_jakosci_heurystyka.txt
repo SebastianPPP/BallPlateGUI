@@ -1,0 +1,55 @@
+===================================================================
+WYNIKI SYMULACJI - OPTYMALIZACJA HEURYSTYCZNA (2DOF) I ZAPASY STABILNOŚCI
+===================================================================
+Błąd liczony jako odległość od (0,0): r = sqrt(x^2 + y^2)
+Energia całkowita układu: E = u_x^2 + u_y^2
+===================================================================
+
+### Sytuacja: Prosta | Metoda: PSO ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     28.35 dB
+  Czas regulacji (Ts):      1.650 s
+  Przeregulowanie (Mp):      0.00 %
+  Wskaźnik IAE:            0.0697
+  Całkowita energia (E):   0.0877
+
+### Sytuacja: Prosta | Metoda: ACO ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     28.54 dB
+  Czas regulacji (Ts):      1.640 s
+  Przeregulowanie (Mp):      0.00 %
+  Wskaźnik IAE:            0.0693
+  Całkowita energia (E):   0.0912
+
+### Sytuacja: Prosta | Metoda: NSGA-II ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     29.09 dB
+  Czas regulacji (Ts):      2.890 s
+  Przeregulowanie (Mp):      0.00 %
+  Wskaźnik IAE:            0.0789
+  Całkowita energia (E):   0.0617
+
+### Sytuacja: Trudna | Metoda: PSO ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     28.35 dB
+  Czas regulacji (Ts):      1.680 s
+  Przeregulowanie (Mp):      0.40 %
+  Wskaźnik IAE:            0.1839
+  Całkowita energia (E):   2.4208
+
+### Sytuacja: Trudna | Metoda: ACO ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     28.54 dB
+  Czas regulacji (Ts):      1.670 s
+  Przeregulowanie (Mp):      0.39 %
+  Wskaźnik IAE:            0.1827
+  Całkowita energia (E):   2.4918
+
+### Sytuacja: Trudna | Metoda: NSGA-II ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     29.09 dB
+  Czas regulacji (Ts):      3.110 s
+  Przeregulowanie (Mp):      0.42 %
+  Wskaźnik IAE:            0.2202
+  Całkowita energia (E):   1.8697
+
