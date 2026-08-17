@@ -1,0 +1,101 @@
+======================================================
+WYNIKI SYMULACJI (MODEL REALISTYCZNY Z OPÓŹNIENIEM I SZUMEM)
+======================================================
+Błąd liczony jako odległość od (0,0): r = sqrt(x^2 + y^2)
+Energia całkowita układu: E = u_x^2 + u_y^2
+======================================================
+
+### Scenariusz: 1 Jednostkowe | Sytuacja: Prosta ###
+  Zapas fazy (Pm):         180.00 deg
+  Zapas amplitudy (Gm):      7.96 dB
+  Czas regulacji 2D (Ts):   4.320 s
+  Czas narastania 2D (Tr):  2.140 s
+  Przeregulowanie (Mp):      1.28 %
+  Wskaźnik IAE (2D):       0.1452
+  Wskaźnik ISE (2D):       0.0077
+  Wskaźnik ITAE (2D):       0.1835
+  Całkowita energia (E):   0.0010
+
+### Scenariusz: 1 Jednostkowe | Sytuacja: Trudna ###
+  Zapas fazy (Pm):         180.00 deg
+  Zapas amplitudy (Gm):      7.96 dB
+Wynik: Piłka spadła z płyty w czasie T = 0.33 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 2 Zwiekszone Q | Sytuacja: Prosta ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     34.90 dB
+Wynik: Piłka spadła z płyty w czasie T = 2.61 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 2 Zwiekszone Q | Sytuacja: Trudna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     34.90 dB
+Wynik: Piłka spadła z płyty w czasie T = 0.33 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 3 Zwiekszone R | Sytuacja: Prosta ###
+  Zapas fazy (Pm):         -85.75 deg
+  Zapas amplitudy (Gm):    -15.02 dB
+  Czas regulacji 2D (Ts):   6.000 s
+  Czas narastania 2D (Tr):  2.330 s
+  Przeregulowanie (Mp):     27.90 %
+  Wskaźnik IAE (2D):       0.2458
+  Wskaźnik ISE (2D):       0.0139
+  Wskaźnik ITAE (2D):       0.4936
+  Całkowita energia (E):   0.0000
+
+### Scenariusz: 3 Zwiekszone R | Sytuacja: Trudna ###
+  Zapas fazy (Pm):         -85.75 deg
+  Zapas amplitudy (Gm):    -15.02 dB
+Wynik: Piłka spadła z płyty w czasie T = 0.33 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 4a Typowe Agresywne | Sytuacja: Prosta ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     49.57 dB
+Wynik: Piłka spadła z płyty w czasie T = 1.54 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 4a Typowe Agresywne | Sytuacja: Trudna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     49.57 dB
+Wynik: Piłka spadła z płyty w czasie T = 0.33 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 4b Typowe Zachowawcze | Sytuacja: Prosta ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     12.92 dB
+  Czas regulacji 2D (Ts):   2.360 s
+  Czas narastania 2D (Tr):  1.400 s
+  Przeregulowanie (Mp):      2.38 %
+  Wskaźnik IAE (2D):       0.1081
+  Wskaźnik ISE (2D):       0.0060
+  Wskaźnik ITAE (2D):       0.0965
+  Całkowita energia (E):   0.0046
+
+### Scenariusz: 4b Typowe Zachowawcze | Sytuacja: Trudna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     12.92 dB
+Wynik: Piłka spadła z płyty w czasie T = 0.33 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 4c Typowe Zrownowazone | Sytuacja: Prosta ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     31.36 dB
+Wynik: Piłka spadła z płyty w czasie T = 2.59 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 4c Typowe Zrownowazone | Sytuacja: Trudna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):     31.36 dB
+Wynik: Piłka spadła z płyty w czasie T = 0.33 s (wpływ opóźnień/nieliniowości)
+
+### Scenariusz: 5 Regula Brysona | Sytuacja: Prosta ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):      8.85 dB
+  Czas regulacji 2D (Ts):   3.360 s
+  Czas narastania 2D (Tr):  1.310 s
+  Przeregulowanie (Mp):      7.25 %
+  Wskaźnik IAE (2D):       0.1136
+  Wskaźnik ISE (2D):       0.0062
+  Wskaźnik ITAE (2D):       0.1125
+  Całkowita energia (E):   0.0033
+
+### Scenariusz: 5 Regula Brysona | Sytuacja: Trudna ###
+  Zapas fazy (Pm):            Inf deg
+  Zapas amplitudy (Gm):      8.85 dB
+Wynik: Piłka spadła z płyty w czasie T = 0.33 s (wpływ opóźnień/nieliniowości)
+
